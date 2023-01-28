@@ -1,7 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 
 import Photo from "./Photo";
-// const clientID = `?client_id=3cTpUhDNQvW-Bx94u3QSvwLxFmojppdo2Z2PUEK4GYk`;
 const clientID = `?client_id=${import.meta.env.VITE_UNSPLASH_ACCESS_KEY}`;
 const mainUrl = `https://api.unsplash.com/photos/`;
 const searchUrl = `https://api.unsplash.com/search/photos/`;
